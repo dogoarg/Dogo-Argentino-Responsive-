@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8" />
+    <meta name="author" name="Mariano" />
+    <meta name="description" name="Portafolio de desarrollo de Mariano" />
+    <meta name="keyword" content="HTML, CSS, JavaScript, React" />
+    <meta name="viwport" content="width=device-width, initial-scale=1" />
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./imagenes/dogo23.jpg" />
+    <title>Mariano-Front-End</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"
+            ><img src="/imagenes/dogo23.jpg" width="50" alt="LOGO"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-dogo"
+                >Dogo Argentino</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Función en la cacería</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#articulos">Dogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Potencia Dogo Argentino</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- seccion principal -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img class="foto" src="/imagenes/dogo-maquina.jpg" alt="imagen" />
+        <h1>Dogo Argentino</h1>
+        <h2>Perro De Caza Mayor</h2>
+        <div class="hero-inferior"></div>
+      </div>
+      <img
+        class="hero-inferiror-imagen img-fluid"
+        src="imagenes/dogooo.jpg"
+        alt=""
+      />
+    </section>
+
+    <section id="sobre-dogo" class=" sobre-dogo seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce al Dogo Argentino</h2>
+        <p class="seccion-texto">El dogo argentino es una raza de perro de presa utilizada para la caza mayor originaria de la Provincia de Córdoba, Argentina.
+          Fue desarrollada por el médico argentino Dr. Antonio Nores Martínez, nacido en Córdoba en el año 1907 y fallecido en el año 1956, eminente y activo cirujano, quien buscaba un animal adecuado para la caza mayor de especies habituales en Argentina, tales como jabalíes, pecaríes, pumas y zorros colorados
+
+          .</p>
+      </div>
+  
+    </section>
+
+    <section id="experiencia" class="experiencia seccion-clara">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-1-circle"></i>
+            <p class="experiencia-titulo">Caracteristicas Fisicas</p>
+            <p>La cabeza es grande con cráneo macizo. Hocico ligeramente cóncavo, con labios finos que al morder y atrapar a la presa le permiten seguir respirando sin soltar. Los ojos de color pardo, bien separados entre sí. Orejas erguidas o semierguidas, triangulares y cortadas, El cuello es musculoso, arqueado y grueso. El pecho es ancho y profundo. La línea dorsal muy alta en los hombros que luego se inclina hacia la cadera.  </p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Letal</span>
+              <span class="badge text-bg-primary">Eficiente</span>
+              <span class="badge text-bg-primary">Fuerte</span>
+
+            </div>
+          </div>
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-2-circle"></i>
+            <p class="experiencia-titulo">Temperamento</p>
+            <p>Son perros de trabajo, cazadores de presa mayor y son a veces entrenados para búsqueda y rescate, ayuda policial, perros de servicio, y trabajo militar. Al igual que con todas las razas de perro, el dogo argentino puede ser bueno con los niños y fiel y afectuoso con las personas,si bien debe ser socializado a temprana edad. </p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Leal</span>
+              <span class="badge text-bg-primary">Sociable</span>
+              <span class="badge text-bg-primary">Inteligente</span>
+            </div>
+
+          </div>
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-3-circle"></i>
+            <p class="experiencia-titulo">Educación</p>
+            <p>Se debe ser constante, paciente y socializarlo desde el primer día, exponiéndolo desde cachorro a diferentes situaciones con personas y otras mascotas. Un entrenamiento firme y consistente permitirá que no sea territorial y encauzará su fuerte instinto de proteger lo que es suyo. </p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Socializarlo</span>
+              <span class="badge text-bg-primary">No debe Atacar</span>
+              <span class="badge text-bg-primary">Disciplina</span>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Función en la cacería</h2>
+      <h3 class="seccion-descripcion">Es un perro utilizado mayoritariamente para la caza mayor. Los dogos trabajan en jauría, generalmente de cuatro miembros. Al ventear al jabalí, lo persigue hasta alcanzarlo y lo prende en el hocico, orejas, cuello o patas, sin soltarlo a pesar del castigo que pueda recibir del otro animal. Tiene una mordida muy fuerte, una gran resistencia y mucho coraje.</h3>
+      <!-- galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- imagen 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/caza2.jpg" alt="foto">
+              <div class="overlay">
+                <p>Dogo Argentino</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.youtube.com/watch?v=ZziOmVC0axA" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- imagen 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/caza3.jpg" alt="foto">
+              <div class="overlay">
+                <p>Dogos vs jabalí</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.youtube.com/watch?v=lXBCiCzO-LM" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- imagen 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/caza1.jpg" alt="foto">
+              <div class="overlay">
+                <p>Dogos vs Puma</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.youtube.com/watch?v=ryVsXzRrW40" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<a href="https://es.wikipedia.org/wiki/Dogo_argentino" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-secondary">Mas sobre Dogo Argentino <i class="bi bi-arrow-right-circle-fill"></i></button>
+    </a>
+    </section>
+<!-- potencia dogo -->
+<section id="articulos" class="articulos justify-content-start">
+  <h2 class="seccion-titulo texto-negro">Dogo </h2>
+  <div class="card" >
+    <div class="card-header">
+      Cualidades
+    </div>
+    <ul class="list-group list-group-flush">
+      <a href="https://www.youtube.com/watch?v=fTAbIpbJS74" target="_blank">
+        <li class="list-group-item">5 Ejercicios para Fortalecer a tu Dogo Argentino 💪</li>
+
+      </a>
+      <a href="https://www.youtube.com/watch?v=VmAO7op1YFs" target="_blank">
+        <li class="list-group-item">Dogo Argentino una MAQUINA DE CAZAR  💪</li>
+      </a>
+      <a href="https://www.youtube.com/watch?v=MyAqk0zTj6A" target="_blank">
+        <li class="list-group-item">🤯¡Descubre 15 Secretos Más Impactantes del Dogo Argentino!💥</li>
+      </a>
+    </ul>
+  </div>
+  <a href="https://www.youtube.com/watch?v=FbinkvwNe7A" target="_blank">
+    <button type="button" class="btn btn-primary">Mas Videos</button>
+  </a>
+</section>
+
+<section id="testimonios" class="testimonios seccion-clara">
+  <h2 class="seccion-titulo">Potencia Dogo Argentino</h2>
+
+<!-- carrusel -->
+
+
+
+
+<div id="testimonios-carrusel" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/caza2.jpg" class="d-block w-100" alt="...">
+      <!-- <div class="container">
+        <img src="" alt="" class="testimonio-imagen rounded-circle">
+        <p class="testimonio-texto">Se utilizó como base fundacional al perro de pelea cordobés —ahora extinto—, que era una mezcla de razas introducidas en la Argentina por los emigrantes ingleses, Bull terrier y bulldog, con razas que habían traído los españoles, alano español y mastín español. A estas cruzas, que se utilizaban en las peleas de perros, se sumaron líneas de sangre bull terrier y Mastín del Pirineo. Así, en la decimotercera generación, consiguieron perros de combate.</p>
+        <div class="testimonio-info">
+          <p class="cliente"> mariano</p>
+          <p  class="cargo"> gerente de desarrollo web</p>
+        </div>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/caza1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/yo aquiles.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<!-- pie de pagina (footer) -->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<img class="footer-icon" src="imagenes/dogo23.jpg" alt="foto">
+<p class="footer-texto text-center">«El mejor perro entre todos los perros de presa y el de más presa entre todos los perros del mundo.»</p>
+
+<div class="derechos-de-autor">Creado por Mariano Aaraoz Teran (2023) &#169;</div>
+</footer>
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
